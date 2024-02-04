@@ -1,0 +1,85 @@
+.navigation {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #340149;
+    color: #fff;
+    padding: 0 150px;
+    box-shadow: 0 2px 20px #c9c9c9;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.navigation h1 {
+    color: #fff;
+}
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.list .listItem {
+    cursor: pointer;
+    color: #fff;
+}
+.listItem a {
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+.connect .btn {
+    background-color: transparent;
+    font-size: 18px;
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.connect .btn:active {
+    background-color: #f1f1f1;
+    color: #000;
+}
+.hr {
+    width: 100%;
+    border: none;
+    height: 3px;
+    background-color: red;
+    border-radius: 4px;
+    margin-top: 4px;
+}
+.connect {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+}
+.connect img {
+    width: 20px;
+    margin-top: 6px;
+    cursor: pointer;
+    color: #fff;
+}
+.count {
+    position: absolute;
+    right: -10px;
+    top: -5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+}

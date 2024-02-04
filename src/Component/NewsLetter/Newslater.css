@@ -1,0 +1,53 @@
+.newslater {
+    width: 80%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto 0;
+    padding: 0 144px;
+    /* margin-bottom: 140px; */
+  background: linear-gradient(100deg, #ffcebe, #ffffff);
+    gap: 20px;
+    box-shadow: 0 4px 30px #8f4830;
+    border-radius: 15px;
+}
+.newslater h1 {
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+.newslater p {
+    font-size: 18px;
+    font-weight: 400;
+    color: red;
+    letter-spacing: 1px;
+}
+.newslater .input {
+    width: 70%;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.newslater .input input {
+    width: 80%;
+    height: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    outline: none;
+    border: none;
+}
+.newslater .input button {
+    width: 20%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #470262;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}

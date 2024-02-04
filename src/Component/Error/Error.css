@@ -1,0 +1,33 @@
+.error {
+    width: 100%;
+    height: var(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.error img {
+    width: 700px;
+}
+.error h1 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #019bd3;
+    margin-top: 40px;
+}
+.error h1 span {
+    text-decoration: overline;
+    text-decoration-color: #019bd3;
+    color: #ffae00;
+}
+.error .logo {
+    position: absolute;
+    left: 40px;
+    top: 100px;
+    color: blueviolet;
+    border-left: 6px solid blueviolet;
+    padding: 0 10px;
+    cursor: pointer;
+    color: red;
+}

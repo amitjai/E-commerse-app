@@ -1,0 +1,24 @@
+.footer {
+    width: 100%;
+    padding: 30px 60px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    border-top: 1px solid #a9a9a9;
+    background-color: #340149;
+    color: #fff;
+}
+.footer h5 {
+    margin: 15px 0;
+}
+.keepintouch ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+    gap: 20px;
+}
+.footer ul li {
+    list-style: none;
+    font-size: 15px;
+    line-height: 30px;
+}

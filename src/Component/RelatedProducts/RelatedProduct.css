@@ -1,0 +1,18 @@
+.related-product {
+    width: 100%;
+    padding: 20px 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+.related-product h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+.related-product .related-product-items {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
